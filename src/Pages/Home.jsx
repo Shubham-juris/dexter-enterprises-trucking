@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Truck, Clock, ShieldCheck, Phone } from "lucide-react";
+
 const Home = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
@@ -9,7 +10,7 @@ const Home = () => {
         className="relative h-[90vh] flex flex-col justify-center items-center text-center px-6"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80')",
+            "url('https://scontent.fixc2-1.fna.fbcdn.net/v/t39.30808-6/476973279_604473562357788_5256272047928361908_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=YGN76arQCjYQ7kNvwGO3ZW5&_nc_oc=AdkvPJz4xKo6kkOwy17pbS7t2C7q6EZ5NnHz3cfd_0JMg_vVXDg1CnCap1NIqU4E3Uk&_nc_zt=23&_nc_ht=scontent.fixc2-1.fna&_nc_gid=ai_n9axcRhTCH8G1k6uKHw&oh=00_Afc7BbIgMwaF8Zs4A4_6DoHjzh6nzcKbU9njzkZJTN7xYw&oe=6908F4E8')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
