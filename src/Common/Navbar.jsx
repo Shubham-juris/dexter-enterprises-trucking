@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo/LogoOfDexter.png";
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -13,11 +14,16 @@ const Navbar = () => {
     { name: "Contact", href: "/contact" },
   ];
   return (
-  <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-blue-600 tracking-wide">
-          Dexter<span className="text-gray-800">Trucking</span>
-        </div>
+    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+      <div className="max-w-7xl mx-auto px-16  flex justify-between items-center">
+        {/* 🔹 Logo Section */}
+        <Link to="/" className="flex items-center space-x-2">
+          <img
+            src={logo}
+            alt="Dexter Trucking Logo"
+            className="w-6 h-16 md:w-40 md:h-30 object-contain"
+          />
+        </Link>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
