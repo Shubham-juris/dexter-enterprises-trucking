@@ -68,7 +68,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={18} className="text-blue-500" />
-              209-215, main st nw,slave lake,Ab,Tog 2A1
+              209-215 Main St NW, Slave Lake, AB, T0G 2A1
             </li>
           </ul>
         </div>
