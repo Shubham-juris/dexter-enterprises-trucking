@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo/LogoOfDexter.png";
+import logo from "../assets/logo/logoOfDexter.png";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,15 +14,17 @@ const Navbar = () => {
     { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
   ];
+
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-16  flex justify-between items-center">
-        {/* 🔹 Logo Section */}
-        <Link to="/" className="flex items-center space-x-2">
+      <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+        
+        {/* Logo */}
+        <Link to="/" className="flex items-center">
           <img
             src={logo}
             alt="Dexter Trucking Logo"
-            className="w-6 h-16 md:w-40 md:h-30 object-contain"
+            className="h-10 md:h-12 w-auto object-contain"
           />
         </Link>
 
@@ -39,21 +42,22 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="hidden md:block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+        {/* Get Quote Button */}
+        <button className="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition text-sm">
           Get Quote
         </button>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu Icon */}
         <div className="md:hidden">
           {isOpen ? (
             <X
-              size={28}
+              size={24}
               className="text-gray-800 cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <Menu
-              size={28}
+              size={24}
               className="text-gray-800 cursor-pointer"
               onClick={() => setIsOpen(true)}
             />
@@ -71,19 +75,19 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-white shadow-inner"
           >
-            <ul className="flex flex-col items-center space-y-4 py-5">
+            <ul className="flex flex-col items-center space-y-4 py-4">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-gray-700 text-lg hover:text-blue-600 transition"
+                    className="text-gray-700 text-base hover:text-blue-600 transition"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
                   </Link>
                 </li>
               ))}
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+              <button className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition text-sm">
                 Get Quote
               </button>
             </ul>

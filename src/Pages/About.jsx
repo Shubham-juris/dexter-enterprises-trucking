@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Image from "../assets/AboutImage/duxterImage.jpg";
 const About = () => {
   return (
     <section className="bg-white text-gray-800">
@@ -33,7 +33,7 @@ const About = () => {
           className="rounded-2xl overflow-hidden shadow-lg"
         >
           <img
-            src="https://scontent.fixc2-1.fna.fbcdn.net/v/t39.30808-6/482021862_622411890563955_7619660071581166051_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cQl8_7zWIfIQ7kNvwHUQ2F7&_nc_oc=Adkx39yYR4ZjLWuW53vmQy7IhDP61eNtUKf96t917saBtLJHiCKgsblpi9hWk68qkg4&_nc_zt=23&_nc_ht=scontent.fixc2-1.fna&_nc_gid=hm0GxRWs8SgTpJXI9pIe8g&oh=00_Aff3W-aEHBPo25v6tbQk7AAAk3E0-05Sx_pg1PdkQJHxfQ&oe=69090E44"
+            src={Image}
             alt="Dexter Trucking"
             className="w-full h-full object-cover"
           />
@@ -50,10 +50,10 @@ const About = () => {
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg mb-5">
             Dexter Trucking is a trusted name in logistics and freight
-            management. Based in <strong>Slave Lake, Alberta</strong>, we provide
-            efficient, safe, and timely trucking solutions across North America.
-            Our commitment to reliability and customer satisfaction sets us
-            apart in the freight industry.
+            management. Based in <strong>Slave Lake, Alberta</strong>, we
+            provide efficient, safe, and timely trucking solutions across North
+            America. Our commitment to reliability and customer satisfaction
+            sets us apart in the freight industry.
           </p>
           <p className="text-gray-700 leading-relaxed text-lg mb-5">
             With a modern fleet and a team of experienced drivers, our mission
@@ -78,7 +78,9 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="p-6 bg-white shadow-lg rounded-2xl"
           >
-            <h3 className="text-2xl font-bold text-blue-700 mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold text-blue-700 mb-4">
+              Our Mission
+            </h3>
             <p className="text-gray-600">
               To provide safe, efficient, and dependable transportation
               solutions that drive success for our clients and communities.
@@ -91,7 +93,9 @@ const About = () => {
             transition={{ duration: 0.7 }}
             className="p-6 bg-white shadow-lg rounded-2xl"
           >
-            <h3 className="text-2xl font-bold text-blue-700 mb-4">Our Vision</h3>
+            <h3 className="text-2xl font-bold text-blue-700 mb-4">
+              Our Vision
+            </h3>
             <p className="text-gray-600">
               To be recognized as a leading trucking company in North America,
               known for innovation, professionalism, and exceptional service.
@@ -104,7 +108,9 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="p-6 bg-white shadow-lg rounded-2xl"
           >
-            <h3 className="text-2xl font-bold text-blue-700 mb-4">Our Values</h3>
+            <h3 className="text-2xl font-bold text-blue-700 mb-4">
+              Our Values
+            </h3>
             <p className="text-gray-600">
               Integrity, reliability, safety, and customer commitment are at the
               core of everything we do.
