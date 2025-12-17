@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo/logoOfDexter.png";
+import logo from "../assets/logo/LogoOfDexter.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
