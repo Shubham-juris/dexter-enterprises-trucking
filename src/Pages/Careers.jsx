@@ -56,7 +56,8 @@ const Careers = () => {
               </div>
               <p className="text-gray-600 mb-4">{job.desc}</p>
 
-              <button className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition w-full">
+              <button 
+               className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition w-full">
                 Apply Now
               </button>
             </div>

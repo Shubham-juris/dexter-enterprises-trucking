@@ -18,7 +18,6 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
-        
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
@@ -43,9 +42,9 @@ const Navbar = () => {
         </ul>
 
         {/* Get Quote Button */}
-        <button className="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition text-sm">
+        {/* <button className="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition text-sm">
           Get Quote
-        </button>
+        </button> */}
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
@@ -87,9 +86,9 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <button className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition text-sm">
+              {/* <button className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition text-sm">
                 Get Quote
-              </button>
+              </button> */}
             </ul>
           </motion.div>
         )}

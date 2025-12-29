@@ -37,9 +37,9 @@ const Home = () => {
           </p>
 
           <div className="flex justify-center gap-4">
-            <button className="bg-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition">
+            {/* <button className="bg-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition">
               Request a Quote
-            </button>
+            </button> */}
             <button className="border border-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition">
               Learn More
             </button>
@@ -138,9 +138,9 @@ const Home = () => {
           Contact our team for a free, no-obligation quote today.
         </p>
 
-        <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
+        {/* <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
           Request Quote
-        </button>
+        </button> */}
       </section>
     </div>
   );
