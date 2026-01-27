@@ -77,15 +77,15 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.facebook.com/dexterenterprises/" className="hover:text-blue-500 transition">
               <Facebook size={22} />
             </a>
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.instagram.com/dexter_enterprises?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-blue-500 transition">
               <Instagram size={22} />
             </a>
-            <a href="#" className="hover:text-blue-500 transition">
+            {/* <a href="#" className="hover:text-blue-500 transition">
               <Linkedin size={22} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
