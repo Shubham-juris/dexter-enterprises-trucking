@@ -60,15 +60,15 @@ const Footer = () => {
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-blue-500" />
-              +1 (555) 123-4567
+              +1 587-839-4791
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-blue-500" />
-              info@dextertrucking.com
+              info.dexterenterprises@gmail.com
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={18} className="text-blue-500" />
-              209-215 Main St NW, Slave Lake, AB, T0G 2A1
+              209-215 main st NE, Slave Lake, AB
             </li>
           </ul>
         </div>
