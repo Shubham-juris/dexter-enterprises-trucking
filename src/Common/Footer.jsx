@@ -3,6 +3,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  Twitter,
   Mail,
   Phone,
   MapPin,
@@ -80,8 +81,16 @@ const Footer = () => {
             <a href="https://www.facebook.com/dexterenterprises/" className="hover:text-blue-500 transition">
               <Facebook size={22} />
             </a>
-            <a href="https://www.instagram.com/dexter_enterprises?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-blue-500 transition">
+            <a href="https://www.instagram.com/dexter.enterprises2/" className="hover:text-blue-500 transition">
               <Instagram size={22} />
+            </a>
+            <a
+              href="https://x.com/DexterEnterpris"
+              className="hover:text-blue-500 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter size={22} />
             </a>
             {/* <a href="#" className="hover:text-blue-500 transition">
               <Linkedin size={22} />
