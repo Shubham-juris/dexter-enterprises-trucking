@@ -3,7 +3,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
-  x,
+  Twitter,
   Mail,
   Phone,
   MapPin,
@@ -91,7 +91,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <X size={22} />
+              <Twitter size={22} />
             </a>
             {/* <a href="#" className="hover:text-blue-500 transition">
               <Linkedin size={22} />
