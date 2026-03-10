@@ -3,11 +3,11 @@ import {
   Facebook,
   Instagram,
   Linkedin,
-  Twitter,
   Mail,
   Phone,
   MapPin,
 } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-12 pb-6 mt-20">
@@ -90,7 +90,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Twitter size={22} />
+              <FaXTwitter size={22} />
             </a>
             {/* <a href="#" className="hover:text-blue-500 transition">
               <Linkedin size={22} />
